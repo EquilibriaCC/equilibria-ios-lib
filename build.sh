@@ -19,7 +19,7 @@ SODIUM_URL="https://github.com/jedisct1/libsodium --branch stable"
 SODIUM_PATH="$EXTERNAL_DIR_PATH/libsodium"
 
 MONERO_URL="https://github.com/EquilibriaCC/Equilibria"
-MONERO_DIR_PATH="$SOURCE_DIR/monero"
+MONERO_DIR_PATH="$SOURCE_DIR/Equilibria"
 
 BOOST_LIBRARYDIR="${BOOST_DIR_PATH}/build/ios/prefix/lib"
 BOOST_INCLUDEDIR="${BOOST_DIR_PATH}/build/ios/prefix/include"
@@ -68,7 +68,7 @@ cd $SODIUM_PATH
 cd $SOURCE_DIR
 
 echo "============================ Monero ============================"
-git clone -b build-ios $MONERO_URL $MONERO_DIR_PATH
+git clone $MONERO_URL $MONERO_DIR_PATH
 cd $MONERO_DIR_PATH
 git submodule update --recursive --init
 rm -r build > /dev/null
