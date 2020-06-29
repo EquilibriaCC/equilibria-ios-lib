@@ -18,7 +18,7 @@ LMDB_DIR_PATH="lmdb/Sources"
 SODIUM_URL="https://github.com/jedisct1/libsodium --branch stable"
 SODIUM_PATH="$EXTERNAL_DIR_PATH/libsodium"
 
-MONERO_URL="https://github.com/WooKeyWallet/monero.git"
+MONERO_URL="https://github.com/EquilibriaCC/Equilibria"
 MONERO_DIR_PATH="$SOURCE_DIR/monero"
 
 BOOST_LIBRARYDIR="${BOOST_DIR_PATH}/build/ios/prefix/lib"
